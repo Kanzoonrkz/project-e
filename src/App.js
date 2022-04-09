@@ -5,7 +5,7 @@ import ProductList from "./components/ProductList";
 
 function App() {
   return (
-    <div>
+    <div className="font-Poppins">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<ProductList />} />

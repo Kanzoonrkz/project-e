@@ -1,7 +1,9 @@
+import Navbar from "./Navbar"
+
 const Paras = () => {
   return (
     <div className="text-black">
-      <nav>Navbar</nav>
+      <Navbar/>
       <section>Landing Page</section>
       <section>List Item</section>
       <button>Discover More</button>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,7 +17,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 @layer utilities {
+
+	.row{
+		@apply flex flex-row;
+	}
+	.col{
+		@apply flex flex-col;
+	}
 
 	.flex-cc {
 		@apply flex justify-center items-center;

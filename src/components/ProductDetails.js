@@ -1,11 +1,12 @@
 import { Link, useParams } from "react-router-dom";
+import Navbar from "./Navbar";
 
 const ProductDetails = () => {
   const { productId } = useParams();
 
   return (
     <>
-      <nav>Navbar</nav>
+      <Navbar/>
       <Link to="/" className="underline">
         Back to List
       </Link>
