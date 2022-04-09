@@ -1,8 +1,10 @@
 const Paras = () => {
   return (
     <div className="text-black">
-      <p>Paras Frontend Intern Hiring Test</p>
-      <p>Please modify the /src based on the test</p>
+      <nav>Navbar</nav>
+      <section>Landing Page</section>
+      <section>List Item</section>
+      <button>Discover More</button>
     </div>
   )
 }

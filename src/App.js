@@ -5,7 +5,7 @@ import ProductList from "./components/ProductList";
 
 function App() {
   return (
-    <div className="p-4">
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<ProductList />} />

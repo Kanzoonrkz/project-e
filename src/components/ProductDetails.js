@@ -4,14 +4,16 @@ const ProductDetails = () => {
   const { productId } = useParams();
 
   return (
-    <div>
-      <p>
-        This is the <b>{productId}</b> details
-      </p>
+    <>
+      <nav>Navbar</nav>
       <Link to="/" className="underline">
         Back to List
       </Link>
-    </div>
+      <div>
+        This is the <b>{productId}</b> details
+      </div>
+      <div>Even more product Details</div>
+    </>
   );
 };
 
