@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import {
   HeartIcon,
@@ -21,7 +22,9 @@ const Navbar = () => {
         </div>
       </section>
       <section className="flex-bc py-4">
+        <Link to="/">
         <div className="font-bold text-4xl">Flone.</div>
+        </Link>
         <div className="row gap-6 font-medium">
           <a href="">Home</a>
           <a href="">Shop</a>

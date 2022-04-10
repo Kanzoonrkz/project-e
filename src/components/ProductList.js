@@ -4,9 +4,8 @@ import data from "../dummy/products.json";
 import ItemCard from "./ItemCard";
 
 const ProductList = () => {
-  console.log(data);
   return (
-    <>
+    <div className="mb-[200px]">
       <Paras />
       <div className="flex-cc col">
         <p className="font-bold text-4xl mb-6">New Arrivals</p>
@@ -18,19 +17,24 @@ const ProductList = () => {
           <p>Tows</p>
         </div>
         <div className="max-w-6xl grid grid-cols-2 lg:grid-cols-4 ">
-        {data.map((key) => (
-          <Link key={key} to={`/products/${key.id}`} className="p-4">
-            <ItemCard
-              data={key}
-              title={key.title}
-              image={key.image}
-              price={key.price}
+          {data.map((products) => (
+            <Link
+              data={products}
+              to={`/products/${products.id}`}
+              className="p-4"
+            >
+              <ItemCard
+                data={products}
+                title={products.title}
+                image={products.image}
+                price={products.price}
               />
-          </Link>
-        ))}
+            </Link>
+          ))}
         </div>
+        <button className="rounded-full bg-red-700 text-white font-medium py-4 px-7">DISCOVER MORE</button>
       </div>
-    </>
+    </div>
   );
 };
 
