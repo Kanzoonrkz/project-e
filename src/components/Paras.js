@@ -4,7 +4,7 @@ const Paras = () => {
   return (
     <div className="text-black">
       <Navbar/>
-      <section className="relative" >
+      <section className="relative mb-24" >
         <img className="object-clip" src="/girl.jpg" alt="background image" />
         <div className="absolute top-1/2 left-2/3 transform -translate-x-1/2 -translate-y-1/2 max-w-2xl">
           <p className="text-2xl">ENJOY THIS OFFER TODAY</p>
@@ -12,8 +12,6 @@ const Paras = () => {
           <button className="mt-6 py-3 px-8 border border-black rounded-full">SHOP NOW</button>
         </div>
       </section>
-      <section>List Item</section>
-      <button>Discover More</button>
     </div>
   )
 }
