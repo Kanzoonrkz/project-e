@@ -19,7 +19,7 @@ const ProductDetails = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 ">
           <div className="flex-cs">
             <img
-              className="object-scale-down max-h-[400px] max-w-[400px] group-hover:scale-110 transition duration-500 mb-8"
+              className="object-scale-down max-h-[400px] max-w-[300px] group-hover:scale-110 transition duration-500 mb-8"
               src={product.image}
               alt=""
             />
