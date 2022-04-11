@@ -8,9 +8,9 @@ const ProductList = () => {
     <div className="mb-[200px]">
       <Paras />
       <div className="flex-cc col px-4">
-        <p className="font-bold text-4xl mb-6">New Arrivals</p>
-        <div className="row gap-9 text-lg mb-12 text-gray-600 font-medium">
-          <p>All Products</p>
+        <p className="font-bold text-2xl md:text-4xl mb-6">New Arrivals</p>
+        <div className="row gap-4 md:gap-9 md:text-lg mb-6 md:mb-12 text-gray-600 font-medium">
+          <p>All</p>
           <p>Men</p>
           <p>Women</p>
           <p>Kids</p>
