@@ -7,7 +7,7 @@ const ProductList = () => {
   return (
     <div className="mb-[200px]">
       <Paras />
-      <div className="flex-cc col">
+      <div className="flex-cc col px-4">
         <p className="font-bold text-4xl mb-6">New Arrivals</p>
         <div className="row gap-9 text-lg mb-12 text-gray-600 font-medium">
           <p>All Products</p>

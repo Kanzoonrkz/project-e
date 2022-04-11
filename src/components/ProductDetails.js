@@ -10,11 +10,12 @@ const ProductDetails = () => {
 
   return (
     <div className="mb-[200px]">
+      
       <Navbar />
       <div className="bg-gray-100 w-full flex-cc py-8">
-        <Link to="/">HOME &#8239;</Link>/ SHOP DETAILS
+        <Link to="/">HOME</Link>&nbsp;/&nbsp;SHOP DETAILS
       </div>
-      <div className="max-w-6xl mx-auto mt-20">
+      <div className="max-w-6xl mx-auto mt-20 px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 ">
           <div className="flex-cs">
             <img
