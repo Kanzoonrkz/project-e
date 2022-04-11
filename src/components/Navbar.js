@@ -40,7 +40,7 @@ const Navbar = () => {
         <Link to="/">
           <div className="font-bold text-4xl">Flone.</div>
         </Link>
-        {(navExpand || width > 768) && (
+        {(navExpand || width >= 768) && (
           <div>
             <div className="md:hidden absolute bg-black bg-opacity-50 w-full h-full top-0 left-0 z-10"></div>
             <ul className="fixed md:static top-0 right-0 h-full pl-10 pr-32 pt-10 z-20 md:p-0 bg-white col md:row gap-6 font-medium ">
